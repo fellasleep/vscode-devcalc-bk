@@ -6,6 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Localization.
 - Convert `px` to `rem`.
 - Convert `px` to `rpx`.
 - Convert `px` to `%`.
