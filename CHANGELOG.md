@@ -27,3 +27,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Shortcut keys for updating screen width.
 - Configurations of status bar appearance and position.
+
+## [1.0.3] - 2022-10-09
+
+### Added
+
+- Configurations of line annotations always on display.
+- Configurations of line annotations color.
