@@ -7,9 +7,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Localization.
-- Convert `px` to `rem`.
-- Convert `px` to `rpx`.
-- Convert `px` to `%`.
 
 ## [1.0.0] - 2022-08-08
 
@@ -17,20 +14,47 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.1] - 2022-08-12
 
-### Changed
+### Fixed
 
-- Remove leading zero function.
+- Method of removing leading zero.
 
 ## [1.0.2] - 2022-08-17
 
 ### Added
 
 - Shortcut keys for updating screen width.
-- Configurations of status bar appearance and position.
+- Status bar's appearance and position.
 
 ## [1.0.3] - 2022-10-09
 
 ### Added
 
-- Configurations of line annotations always on display.
-- Configurations of line annotations color.
+- Line annotations always on display.
+- Line annotations color.
+
+## [1.0.4] - 2022-10-11
+
+### Added
+
+- Convert between `px` and `rem`.
+- Convert between `px` and `%`.
+- Configuration of convert type `vw` `px` `rem`.
+- Configuration of root font size for `rem`.
+
+### Changed
+
+- Commands name
+- Methods of decorations and hover.
+
+## [1.1.0] - 2022-10-17
+
+### Fixed
+
+- Method of removing leading zero.
+
+### Added
+
+- Configuration of general screen widths.
+- Configuration of enable general screen widths.
+- Quickly switch between general screen widths.
+- Enable autocomplete conversion will disable `Suggest: Show Units`.
