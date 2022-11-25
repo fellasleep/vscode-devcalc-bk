@@ -64,3 +64,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - Add 0 and negative numbers to decoration.
+
+## [1.1.2] - 2022-11-25
+
+### Changed
+
+- Add end 0 to decoration.
+- Change decoration style.
