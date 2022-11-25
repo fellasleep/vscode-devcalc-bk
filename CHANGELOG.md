@@ -58,3 +58,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Configuration of enable general screen widths.
 - Quickly switch between general screen widths.
 - Enable autocomplete conversion will disable `Suggest: Show Units`.
+
+## [1.1.1] - 2022-11-25
+
+### Changed
+
+- Add 0 and negative numbers to decoration.
