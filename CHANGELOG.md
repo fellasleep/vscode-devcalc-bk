@@ -71,3 +71,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Add end 0 to decoration.
 - Change decoration style.
+
+## [1.1.3] - 2022-11-25
+
+### Changed
+
+- logic to add 0 to decoration.
