@@ -77,3 +77,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 
 - logic to add 0 to decoration.
+
+## [1.1.4] - 2022-11-28
+
+### Changed
+
+- logic to add 0 to decoration.
