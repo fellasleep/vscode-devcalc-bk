@@ -63,23 +63,30 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Changed
 
-- Add 0 and negative numbers to decoration.
+- Add 0 and negative numbers to line annotation.
 
 ## [1.1.2] - 2022-11-25
 
 ### Changed
 
-- Add end 0 to decoration.
-- Change decoration style.
+- Add end 0 to line annotation.
+- Change line annotation color.
 
 ## [1.1.3] - 2022-11-25
 
 ### Changed
 
-- logic to add 0 to decoration.
+- Change add 0 to line annotation logic.
 
 ## [1.1.4] - 2022-11-28
 
-### Changed
+### Fixed
 
-- logic to add 0 to decoration.
+- Change add 0 to line annotation logic.
+
+## [1.1.5] - 2023-02-20
+
+### Enhancement
+
+- Optimized the code structure.
+- Add auto to line annotation.
