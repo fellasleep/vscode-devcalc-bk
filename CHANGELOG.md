@@ -16,77 +16,98 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Fixed
 
-- Method of removing leading zero.
+- Fixed method of removing leading zero.
 
 ## [1.0.2] - 2022-08-17
 
 ### Added
 
-- Shortcut keys for updating screen width.
-- Status bar's appearance and position.
+- Added shortcut keys for updating screen width.
+- Added configuration options for status bar appearance and position.
 
 ## [1.0.3] - 2022-10-09
 
 ### Added
 
-- Line annotations always on display.
-- Line annotations color.
+- Added configuration options for line annotations:
+  - Always-On display.
+  - Color.
 
 ## [1.0.4] - 2022-10-11
 
 ### Added
 
-- Convert between `px` and `rem`.
-- Convert between `px` and `%`.
-- Configuration of convert type `vw` `px` `rem`.
-- Configuration of root font size for `rem`.
+- Added conversion options:
+  - Convert between `px` and `rem`.
+  - Convert between `px` and `%`.
+  - Configuration of convert types (`vw` `px` `rem`).
+  - Configuration of root font size for `rem`.
 
 ### Changed
 
-- Commands name
-- Methods of decorations and hover.
+- Renamed commands for better clarity.
+- Updated decorations and hover methods to improve user experience.
 
 ## [1.1.0] - 2022-10-17
 
 ### Fixed
 
-- Method of removing leading zero.
+- Fixed method for removing leading zero.
 
 ### Added
 
-- Configuration of general screen widths.
-- Configuration of enable general screen widths.
-- Quickly switch between general screen widths.
-- Enable autocomplete conversion will disable `Suggest: Show Units`.
+- Added configuration for general screen widths.
+- Added configuration for enabling general screen widths.
+- Added ability to quickly switch between general screen widths.
+- Enabling autocomplete conversion will disable `Suggest: Show Units` to improve user experience.
 
 ## [1.1.1] - 2022-11-25
 
 ### Changed
 
-- Add 0 and negative numbers to line annotation.
+- Added support for 0 and negative numbers in line annotations.
 
 ## [1.1.2] - 2022-11-25
 
+### Fixed
+
+- Fixed support for 0 in line annotations.
+
 ### Changed
 
-- Add end 0 to line annotation.
-- Change line annotation color.
+- Changed line annotations color.
 
 ## [1.1.3] - 2022-11-25
 
 ### Changed
 
-- Change add 0 to line annotation logic.
+- Updated method of adding 0 to line annotations.
 
 ## [1.1.4] - 2022-11-28
 
 ### Fixed
 
-- Change add 0 to line annotation logic.
+- Fixed method of adding 0 to line annotations.
 
 ## [1.1.5] - 2023-02-20
 
 ### Enhancement
 
-- Optimized the code structure.
-- Add auto to line annotation.
+- Optimized code structure.
+
+### Added
+
+- Added support for "auto" in line annotations.
+
+## [1.1.6] - 2023-02-22
+
+### Fixed
+
+- Fixed method of converting `rem/%` to `px`.
+- Fixed the update screen width method when `enableGeneralScreenWidths` is true and `generalScreenWidths` has only one value.
+
+### Added
+
+- When `convertType` is set to `rem`:
+  - Added support for displaying the current root font size in status bar.
+  - Added support for updating the root font size with shortcut keys.
