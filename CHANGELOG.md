@@ -1,37 +1,104 @@
-# Change Log
+## [1.2.0] - 2023-06-02
 
-All notable changes to the "DevCalc" extension will be documented in this file.
+### Added
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Added support for Chinese and English.
 
-## [Unreleased]
+### Changed
 
-- Localization.
+- Changed some configuration names and order.
 
-## [1.0.0] - 2022-08-08
+### Enhancement
 
-- Initial release.
+- Optimized file and code structure.
 
-## [1.0.1] - 2022-08-12
+## [1.1.9] - 2023-05-26
+
+### Enhancement
+
+- Optimized code structure.
 
 ### Fixed
 
-- Fixed method of removing leading zero.
+- Fixed status bar configurations
 
-## [1.0.2] - 2022-08-17
+## [1.1.8] - 2023-05-05
+
+### Fixed
+
+- Fixed method for removing leading zero with negative numbers.
+
+## [1.1.7] - 2023-02-23
 
 ### Added
 
-- Added shortcut keys for updating screen width.
-- Added configuration options for status bar appearance and position.
+- Added conversion options to convert between `px` and `rpx`.
+- Added several icons to the appearance options of the status bar.
+- Added right click menu option.
 
-## [1.0.3] - 2022-10-09
+## [1.1.6] - 2023-02-22
+
+### Fixed
+
+- Fixed method of converting `rem/%` to `px`.
+- Fixed the update screen width method when `enableCommonScreenWidths` is true and `commonScreenWidths` has only one value.
+
+## [1.1.5] - 2023-02-20
+
+### Enhancement
+
+- Optimized code structure.
 
 ### Added
 
-- Added configuration options for line annotations:
-  - Always-On display.
-  - Color.
+- Added support for "auto" in line annotations.
+
+### Added
+
+- When `convertType` is set to `rem`:
+  - Added support for displaying the current root font size in status bar.
+  - Added support for updating the root font size with shortcut keys.
+
+## [1.1.4] - 2022-11-28
+
+### Fixed
+
+- Fixed method of adding 0 to line annotations.
+
+## [1.1.3] - 2022-11-25
+
+### Changed
+
+- Updated method of adding 0 to line annotations.
+
+## [1.1.2] - 2022-11-25
+
+### Fixed
+
+- Fixed support for 0 in line annotations.
+
+### Changed
+
+- Changed line annotations color.
+
+## [1.1.1] - 2022-11-25
+
+### Changed
+
+- Added support for 0 and negative numbers in line annotations.
+
+## [1.1.0] - 2022-10-17
+
+### Fixed
+
+- Fixed method for removing leading zero.
+
+### Added
+
+- Added configuration for common screen widths.
+- Added configuration for enabling common screen widths.
+- Added ability to quickly switch between common screen widths.
+- Enabling autocomplete conversion will disable `Suggest: Show Units` to improve user experience.
 
 ## [1.0.4] - 2022-10-11
 
@@ -48,66 +115,27 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Renamed commands for better clarity.
 - Updated decorations and hover methods to improve user experience.
 
-## [1.1.0] - 2022-10-17
-
-### Fixed
-
-- Fixed method for removing leading zero.
+## [1.0.3] - 2022-10-09
 
 ### Added
 
-- Added configuration for general screen widths.
-- Added configuration for enabling general screen widths.
-- Added ability to quickly switch between general screen widths.
-- Enabling autocomplete conversion will disable `Suggest: Show Units` to improve user experience.
+- Added configuration options for line annotations:
+  - Always-On display.
+  - Color.
 
-## [1.1.1] - 2022-11-25
-
-### Changed
-
-- Added support for 0 and negative numbers in line annotations.
-
-## [1.1.2] - 2022-11-25
-
-### Fixed
-
-- Fixed support for 0 in line annotations.
-
-### Changed
-
-- Changed line annotations color.
-
-## [1.1.3] - 2022-11-25
-
-### Changed
-
-- Updated method of adding 0 to line annotations.
-
-## [1.1.4] - 2022-11-28
-
-### Fixed
-
-- Fixed method of adding 0 to line annotations.
-
-## [1.1.5] - 2023-02-20
-
-### Enhancement
-
-- Optimized code structure.
+## [1.0.2] - 2022-08-17
 
 ### Added
 
-- Added support for "auto" in line annotations.
+- Added shortcut keys for updating screen width.
+- Added configuration options for status bar appearance and position.
 
-## [1.1.6] - 2023-02-22
+## [1.0.1] - 2022-08-12
 
 ### Fixed
 
-- Fixed method of converting `rem/%` to `px`.
-- Fixed the update screen width method when `enableGeneralScreenWidths` is true and `generalScreenWidths` has only one value.
+- Fixed method of removing leading zero.
 
-### Added
+## [1.0.0] - 2022-08-08
 
-- When `convertType` is set to `rem`:
-  - Added support for displaying the current root font size in status bar.
-  - Added support for updating the root font size with shortcut keys.
+- Initial release.
